@@ -13,9 +13,9 @@ body {
 }
 
 .envelope {
-  width: 100vw;                /* 90% da largura da tela */
-  max-width: 700px;           /* limite máximo em telas grandes */
-  aspect-ratio: 7 / 6;        /* mantém a proporção do envelope */
+  width: 100vw;                
+  max-width: 700px;         
+  aspect-ratio: 7 / 6;        
   background: #ff7e94;
   position: relative;
   border-radius: 10px;
@@ -70,7 +70,7 @@ body {
   z-index: 1;
   font-size: 16px;
   line-height: 1.6;
-  color: #333;
+  color: #000000;
 }
 
 h2{
@@ -143,9 +143,9 @@ h2{
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 .texto {
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   padding: 1rem;
 }
 
